@@ -1,0 +1,58 @@
+notify:
+[
+	{
+		"T_Notfication": 1,
+		"tID": 1,
+		"Parameter": [
+			"user name"
+		],
+		"recieverMail": " mail in session",
+		"recieverMobile": " phone in session"
+	},
+	{
+		"T_Notfication": 1,
+		"tID": 2,
+		"Parameter": [
+			"user name",
+			"confirmation link",
+			"mobile",
+			"mail"
+		],
+		"recieverMail": " mail in session",
+		"recieverMobile": "phone in session"
+	},
+	{
+		"T_Notfication": 2,
+		"tID": 1,
+		"Parameter": [
+			"user name",
+			"product name",
+			"product type",
+			"product id",
+			"user phone number"
+		],
+		"recieverMail": " mail in session",
+		"recieverMobile": "user phone in session"
+	}
+]
+
+
+
+
+create:
+[
+	{
+		"T_Notfication": 1,
+		"tID": 1,
+		"subject": "sign up",
+		"content": "welcome {a} for sign up  confirmation link is {a} we send message to your phone  {a} and your email {a}",
+		"languageNum": 1
+	},
+	{
+		"T_Notfication": 2,
+		"tID": 1,
+		"subject": "amr",
+		"content": "this massage for confirmation you ( {a} ) for order {a}   with id {a} we send confirmation in your phone {a} and your mail {a}",
+		"languageNum": 1
+	}
+]
